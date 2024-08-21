@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "BasisGrotesquePro-Black";
+  src: url("fonts/BasisGrotesquePro-Black.woff") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+html {
+  background-color: #cbc9b6;
+}
+html .mainContent {
+  font-family: BasisGrotesquePro-Black, serif;
+  text-align: center;
+  line-height: 30px;
+}
+html .mainContent h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #5d482f;
+}
+html .mainContent h2 {
+  font-family: "Matemasie", sans-serif;
+  font-size: 30px;
+}
+html .mainContent h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  color: #2f2304;
+}
+html .mainContent p {
+  font-size: 30px;
+  color: #5d484f;
+}
+
+/*# sourceMappingURL=style.css.map */
