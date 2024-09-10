@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+body .section1 {
+  min-height: 100px;
+  background: linear-gradient(45deg, #1e1c1c, #efe6de);
+  background-size: 400% 400%;
+  animation: gradientShift 5s ease infinite;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .section1 .section1Title {
+  box-shadow: 0 10px 8px rgba(29, 12, 55, 0.5);
+  padding: 20px;
+  margin: 20px;
+}
+body .section1 .section1Title h3 {
+  border-radius: 10px;
+  border: 2px #56371c solid;
+  padding: 5px;
+}
+body .section1 .section1EventLoop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .section1 .section1EventLoop .myImg {
+  max-width: 500px;
+  box-shadow: 0 10px 8px rgb(93, 35, 48);
+  padding: 20px;
+  margin: 20px;
+}
+body .section1 .section1EventLoop .description {
+  padding: 30px;
+  margin: 20px;
+  background: linear-gradient(45deg, #bdb4b2, #72675f);
+  box-shadow: 0 10px 8px rgb(29, 12, 55);
+  color: #310909;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
